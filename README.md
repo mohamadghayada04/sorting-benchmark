@@ -43,9 +43,9 @@ Each algorithm was tested on:
 ## 📊 Key Findings
 
 - Insertion Sort performed best overall on small datasets
-- Gnome Sort was extremely efficient on already sorted data
-- Selection Sort showed consistent behavior across all tests
-- Advanced algorithms introduced overhead for small input sizes
+- Gnome Sort was very efficient on sorted data
+- Selection Sort showed stable performance
+- Advanced algorithms had more overhead for small inputs
 
 ---
 
@@ -53,6 +53,20 @@ Each algorithm was tested on:
 
 Compile and run:
 
-```bash
-javac FullSortingBenchmark.java
+javac FullSortingBenchmark.java  
 java FullSortingBenchmark
+
+---
+
+## 🔗 Repository Purpose
+
+This repository supports a research paper analyzing the practical performance of sorting algorithms under different conditions.
+
+All experiments are reproducible using the provided code.
+
+---
+
+## 👤 Author
+
+Mohammad Ghayada  
+West University of Timișoara
