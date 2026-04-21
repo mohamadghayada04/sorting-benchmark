@@ -2,7 +2,7 @@ import java.util.*;
 
 public class FullSortingBenchmark {
 
-    static int n = 10;
+    static int n = 1000;
     static String[] testTypes = {
             "Random", "Sorted", "Reverse",
             "Almost Sorted", "Half Sorted", "Few Unique"
