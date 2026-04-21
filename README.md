@@ -1,15 +1,19 @@
-# Sorting Algorithms Benchmark (Java)
+# Sorting Algorithms Benchmark
 
-## 📌 Overview
-This project presents an experimental comparison of multiple sorting algorithms implemented in Java.
+## 📌 Repository Purpose
+This repository contains an experimental study of multiple sorting algorithms, focusing on their performance under different input conditions.
 
-The goal is to analyze when simple algorithms (like Insertion Sort) outperform more advanced ones (like Quick Sort or Merge Sort), especially on small or structured datasets.
+The goal is to analyze when simple algorithms can outperform more advanced ones and how performance changes with input size.
+
+---
+
+## 👤 Author
+Mohammad Gayada  
+West University of Timișoara  
 
 ---
 
 ## ⚙️ Algorithms Implemented
-
-### Comparison-based:
 - Bubble Sort
 - Insertion Sort
 - Selection Sort
@@ -19,54 +23,44 @@ The goal is to analyze when simple algorithms (like Insertion Sort) outperform m
 - Merge Sort
 - Quick Sort
 - Heap Sort
-
-### Non-comparison:
 - Counting Sort
 - Radix Sort
 - Bucket Sort
 
 ---
 
-## 🧪 Test Types
+## 🧪 Experimental Setup
+The algorithms were tested on different types of input:
 
-Each algorithm was tested on:
+- Random
+- Sorted
+- Reverse
+- Almost Sorted
+- Half Sorted
+- Few Unique
 
-- Random arrays
-- Sorted arrays
-- Reverse arrays
-- Almost sorted arrays
-- Half sorted arrays
-- Few unique values
+Input sizes:
+- n = 10
+- n = 1000
+
+Execution time was measured using `System.nanoTime()`
 
 ---
 
 ## 📊 Key Findings
-
-- Insertion Sort performed best overall on small datasets
-- Gnome Sort was very efficient on sorted data
-- Selection Sort showed stable performance
-- Advanced algorithms had more overhead for small inputs
-
----
-
-## 🚀 How to Run
-
-Compile and run:
-
-javac FullSortingBenchmark.java  
-java FullSortingBenchmark
+- Insertion Sort performs best for small datasets
+- Gnome Sort performs very well on sorted data
+- Quick Sort and Merge Sort perform better on larger datasets
+- Algorithm efficiency depends on both input size and data structure
 
 ---
 
-## 🔗 Repository Purpose
+## 📄 Paper
+The full experimental paper is available here:
 
-This repository supports a research paper analyzing the practical performance of sorting algorithms under different conditions.
-
-All experiments are reproducible using the provided code.
+👉 [Download Paper](./SortingPaper.pdf)
 
 ---
 
-## 👤 Author
-
-Mohammad Ghayada  
-West University of Timișoara
+## 🔗 Repository Link
+https://github.com/mohamadghayada04/sorting-benchmark
